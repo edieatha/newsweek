@@ -1,0 +1,20 @@
+linters:
+  rubocop:
+    display_cop_names: true
+  csslint:
+  stylelint:linters:
+  rubocop:
+    display_cop_names: true
+  csslint:
+  stylelint:
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
