@@ -53,46 +53,32 @@ body {
   color: white; 
 }
 
-ul li.leaf {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul li.leaf > a {
+.leaf > a {
     color: black;
-    padding-right: 1.4rem;
     display: block;
 }
 
-ul.page-nav {
+.page-nav {
     font-size: 18px;
-    line-height: 24px;
     font-weight: bold;
     font-family: "Roboto Condensed",sans-serif;
     display: inline-flex;
-    padding-top: 10px;
+    margin-top: 0.4rem;
 }
 
-ul.page-nav a:hover {
+.page-nav a:hover {
   color:  #f72210;
   text-decoration: none;
 }
 
-.page-nav {
-  color: black;
-  padding: 0;
-}
-
 .header-bottom {
-    padding-top: px;
     border-bottom: 0.1px solid lightgray;
-    z-index: 1;
     background-color: white;
+    height: 2rem;
 }
 
 .header-bottom .search {
-    padding: 10px 12px;
+    padding: 0 12px;
     font-size: 16px;
     color: gray;
 }
@@ -113,11 +99,30 @@ ul.page-nav a:hover {
   .header-top {
     height: 95px;
     padding: 20px 10px 15px;
+    background-color: #f72210;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.7rem;
   }
+
+  .sign-in-subscribe .subscribe-btn {
+    padding: 2px 11px;
+    display: inline-block;
+    color:  #f72210;
+    font-weight: 700;
+  }
+
+   .page-nav .leaf {
+     flex-grow: 1;
+     border-right: 0.5px solid lightgray;
+     padding: 0.1rem 0.4rem;
+    }
+
+   
 }
 
 @media screen and (min-width: 1200px) {
-    .header-top {
+   .header-top {
     height: 95px;
     padding: 20px 10px 15px;
   }
@@ -125,6 +130,7 @@ ul.page-nav a:hover {
   .page-nav .leaf {
     flex-grow: 1;
     border-right: 0.5px solid lightgray;
-    margin-left: 1rem;
+    height: 1rem;
+    padding: 0 1rem
     }
 }
