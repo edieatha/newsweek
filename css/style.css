@@ -28,6 +28,10 @@ a:hover {
   width: 100%;
 }
 
+.container {
+  max-width: 1310px;
+}
+
 .bloc .container {
   background-color: white;
 }
@@ -38,6 +42,11 @@ a:hover {
 
 .l-bloc {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.divider-h span {
+  border-top: 1px solid transparent;
+  display: block;
 }
 
 .divider-h span,
@@ -107,11 +116,6 @@ img.mg-lg {
   width: 100%;
 }
 
-.divider-h span {
-  border-top: 1px solid transparent;
-  display: block;
-}
-
 .form-control {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
@@ -124,14 +128,8 @@ h4,
 h5,
 h6,
 p,
-label,
-.btn,
-a {
+.btn {
   font-family: 'Helvetica', sans-serif;
-}
-
-.container {
-  max-width: 1310px;
 }
 
 .h3-style {
