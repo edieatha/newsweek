@@ -1,74 +1,1371 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-
-	<meta charset="UTF-8">
-	<script src="https://use.fontawesome.com/d11afd1868.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="https://use.fontawesome.com/d11afd1868.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" type='text/css' href='./css/style.css'>
-       
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
-
-
-<title>Newsweek</title>
-</head>
-
-<body>
-	<header class='header container-fluid'>
-		
-	<div class='container'>	
-		 <div class='header-top flex-xs row'>
-		
-		     <div class='col-md-4'>
-		       <div class='date'><img src='./images/weather-icon.png' height='20' alt='weather-icon'><span> 25° Kampala, UG </span>
-		       <img src='./images/white-arrow.png' height='10' alt='white-arrow'></div>
-		       <div class='date'><date>Tue, Apr 28, 2020</date></div>
-		     </div>
-
-		     <div class='col-md-4'>
-			  <div class='logo-main'><img src='./images/newsweek-logo-white.png' height='60' alt='main-logo-newsweek'></div>
-			 </div>
-
-			 <div class='col-md-4'>
-		      <div class='date'>.</div>
-			  <div class='sign-in-subscribe'><span class='sign-in'>SIGN IN</span><span class='subscribe-btn'>SUBSCRIBE  
-			  <img src='./images/red-arrow.png' height='10' alt='white-arrow'></span></div>
-			 </div>
-		</div>
-		
-		<div class='header-bottom flex-xs row'>
-		  <div class="page-nav">
-		     <span class="leaf"><a href="https://www.newsweek.com/us" title="">U.S. </a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/world" title="">World</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/business" title="">Business</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/tech-science" title="">Tech &amp; Science</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/culture" title="">Culture</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/newsgeek" title="">Newsgeek</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/sports" title="">Sports</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/health" title="">Health</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/the-debate" title="">The Debate</a></span>
-		     <span class="leaf "><a href="https://www.newsweek.com/vantage" title="">Vantage</a></span>
-		     <span class="last leaf "><a href="https://www.newsweek.com/weather" title="">Weather</a></span>
-		    </div>
-		
-		    <div class='search'>Search<img src='./images/search-icon.png' alt='search-icon' height='30'></div>
-		    <div class='fancy-design'></div>
-    	</div>
-
-
-		</div>
-
 	
-	</header>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Home</title>
+    
+</head>
+    
+<body>
 
+<div class="page-container">
+    
+<div class="bloc l-bloc none" id="header-section">
+	<div class="container ">
+		<div class="row bgc-red header-row">
+			<div class="col-lg-6 logo-main col-xl-12 col-md-3 d-lg-none col-sm-3 col-6">	
+				<img src="img/logo-newsweek-white-991.png" class="img-fluid img-1-style float-none" alt="newsweek logo-white" />
+		  </div>
+			<div class="offset-md-0 col-sm-4 d-none d-sm-block offset-5 offset-sm-0 col-md-5 col-lg-3">
+				<p class="p-1-style text-lg-left">
+					<img src="img/weather-icon.png" alt="white-arrow" height="25"> 25° Kampala, UG <img src="img/white-arrow.png" alt="weather-icon" height="10">
+			  </p>
+				<p class="header-weather-date d-lg-block d-none ">
+					Thu, Apr 30, 2020
+				</p>
+		  </div>
+			<div class="logo-main col-4 col-md-3 d-lg-block col-sm-1 d-none col-lg-6">
+				<img src="img/logo-newsweek-white.png" class="img-fluid img-1-style float-none" alt="newsweek logo-white" height="100" width="500"/>
+			</div>
+			<div class="sign-in-subscribe col-sm-5 col-6 col-md-4 col-lg-3">
+				
+				
+				<div class="float-right  row no-gutters voffset-clear-md">
+					<div class="col col-lg-4 col-xl-5">
+						<a href="index.html" class="btn btn-d float-lg-none sign-in-btn btn-sq btn-sm">SIGN IN</a>
+					</div>
+					<div class="col col-lg-8 col-xl-5">
+						<a href="index.html" class="btn btn-d float-lg-none subscribe-btn btn-sq btn-sm">SUBSCRIBE ></a>
+					</div>
+					<div class="col col-md-1 d-lg-none d-xl-none col-sm-1 col-1"><img src="img/white_menu_icon.png" height="30" class="d-lg-none d-xl-block menu-bars" /></div>
+				</div>
+			</div>
+	  </div>
+		<div class="row d-lg-flex d-sm-flex d-none d-sm-block d-md-none">
+			<div class="col bgc-white nav-bar-column col-sm-12 d-sm-none d-md-block offset-sm-3 offset-xl-0 offset-lg-0">
+				<div class="d-flex justify-content-around nav-bar container-div-0-style">
+				<div>
+					<ul class="nav-bar-list-main list-unstyled list-horizontal-layout">
+						<li>
+							<a href="https://www.newsweek.com/us" class="nav-bar-list">
+								U.S.
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/world" class="nav-bar-list">
+								World
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/business" class="nav-bar-list">
+								Business
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/tech-science" class="nav-bar-list">
+								Tech &amp; Science
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/culture" class="nav-bar-list">
+								Culture
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/newsgeek" class="nav-bar-list">
+								Newsgeek
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/sports" class="nav-bar-list">
+								Sports
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/health" class="nav-bar-list">
+								Health
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/the-debate" class="nav-bar-list">
+								The Debate
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/vantage" class="nav-bar-list">
+								Vantage
+							</a>
+						</li>
+						<li>
+							<a href="https://www.newsweek.com/weather" class="nav-bar-list">
+								Weather
+							</a>
+						</li>	
+					</ul>
+					</div>
+					<div class="bloc-style form-group container-div-style text-lg-left ">
+								<span class="feather-icon icon-search float-lg-right icon-sm search-icon"></span>
+								<input class="form-control field-style-search" placeholder="Search" />
+							</div>
 
+							<div class="fancy-design"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- header-section END -->
+
+<!-- news-section -->
+<div class="bloc tc-black l-bloc none" id="news-section">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<p class="mg-clear h3-section">
+					FEATURED STORIES
+				</p><img src="img/Screen%20Shot%202020-04-30%20at%205.54.44%20PM.png" class="img-fluid mx-auto" alt="placeholder image" />
+				<h3 class="h3-style mg-sm text-lg-left">
+					Most Americans Want Biden Handling Coronavirus Response and Economy: Poll<br>
+				</h3>
+				<p class="p-style">
+					Only 44 percent of those polled say they would rather see Trump handle the economy while Biden garnered 51 percent of the approval of poll participants.
+				</p><img src="img/Screen%20Shot%202020-04-30%20at%205.55.22%20PM.png" class="img-fluid mx-auto" alt="placeholder image" />
+				<h3 class="mg-sm h3-style">
+					Michigan's Stay-At-Home Order Did Not Infringe Rights, Court Finds
+				</h3>
+				<p class="p-style">
+					The plaintiffs in the case claimed that the "mandatory quarantine," along with interstate travel restrictions listed in an earlier version of the order, violated their rights.
+				</p><img src="img/Screen%20Shot%202020-04-30%20at%206.44.20%20PM.png" class="img-fluid mx-auto" alt="placeholder image" />
+				<h3 class="mg-sm h3-style">
+					Best and Worst States at Social Distancing Revealed
+				</h3>
+				<p class="p-style">
+					Just over two weeks ago, the U.S. saw a 70 percent decrease in non-essential visits and a 82-94 percent decrease in human encounters among residents since social distancing guidelines were issued.
+				</p><img src="img/Screen%20Shot%202020-04-30%20at%206.45.04%20PM.png" class="img-fluid mx-auto d-block" alt="placeholder image" />
+				<h3 class="mg-sm h3-style">
+					Essential Workers To Strike Against Amazon, Shipt, Whole Foods, Instacart
+				</h3>
+				<p class="p-style">
+					A coalition of workers from the four companies plan to call out sick or walk off the job this Friday in opposition to worker safety during the COVID-19 pandemic.
+				</p><img src="img/Screen%20Shot%202020-04-30%20at%206.45.45%20PM.png" class="img-fluid mx-auto d-block" alt="placeholder image" />
+				<h3 class="mg-sm h3-style">
+					Dr. Fauci Says Remdesivir Trial Shows Drug Has Promise
+				</h3>
+				<p class="p-style">
+					"What it has proven is a drug can block this virus," Fauci said Wednesday while speaking to reporters at the White House.
+				</p>
+			</div>
+			<div class="col-lg-5 col-md-6 p-9-bloc-0-style">
+<div class="row no-gutters">
+
+			  <div class="col">
+			  <p class="mg-clear h3-section">
+					TOP STORY
+				</p>
+						<img src="img/Screen%20Shot%202020-04-30%20at%205.39.01%20PM.png" class="img-fluid mx-auto d-block" alt="Screen%20Shot%202020 04-30%20at%205.39.01%20PM" />
+					</div>
+				</div>
+
+				<h3 class="h3-style mg-sm">
+					Navy Sends Second Ship Into Disputed Waters After China Claims It Scrambled Jets to Expel U.S. Destroyer<br>
+				</h3>
+				<p class="p-style">
+					Beijing tightened its grip on the disputed area by ordering an administrative reorganization of the region's territories last week.<br>
+				</p>
+				<p class="p-4-style mg-sm float-lg-none">
+					HEROES OF THE PANDEMIC
+				</p>
+				<div class="row no-gutters">
+					<div class="heroes-column col-12 col-lg-4 col-sm-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-04-30%20at%205.41.04%20PM.png" class="img-fluid float-none heroes-img-xs img-8-style" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							Teenagers Shop for the Vulnerable During Coronavirus Emergency
+						</h3>
+						<p class="p-style">
+							"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.<br>
+						</p>
+					</div>
+					<div class="heroes-column col-12 col-lg-4 col-sm-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-04-30%20at%205.43.12%20PM.png" class="img-fluid float-none heroes-img-xs img-9-style" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							Tennessee Group Makes Coronavirus Face Masks for Local, International Use
+						</h3>
+						<p class="p-style">
+							"We're not selling anything," Sacco said Tuesday. "Every single bit of this is donation-only or nothing."<br>
+						</p>
+					</div>
+					<div class="heroes-column col-12 col-lg-4 col-sm-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-04-30%20at%205.41.31%20PM.png" class="img-fluid float-none heroes-img-xs img-10-style" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							Organizer Helps Rebuild New York's Filipino Community Hit by COVID-19
+						</h3>
+						<p class="p-style">
+							"When this whole thing started what kept me up at night is the possibility of mass casualties in our community," Riya Ortiz told Newsweek
+						</p>
+					</div>
+				</div>
+				<p class="p-4-style mg-clear">
+					CULTURE &amp; TRAVEL
+				</p>
+				<div class="row no-gutters">
+					<div class="heroes-column col-12 col-lg-4 col-md-4" padding="5px">
+						<img src="img/Screen%20Shot%202020-04-30%20at%206.56.01%20PM.png" class="img-fluid img-8-style float-lg-none" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							A Conversation With Jane Goodall on the Pandemic and Hope for the Planet
+						</h3>
+						<p class="p-style">
+							Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.
+						</p>
+					</div>
+					<div class="heroes-column col-12 col-lg-4 col-md-4">
+						<img src="img/Screen%20Shot%202020-04-30%20at%206.56.19%20PM.png" class="img-fluid mg-sm img-8-style float-lg-none" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							Signs of Hope and Gratitude in the Time of Coronavirus, in Photos
+						</h3>
+						<p class="p-style">
+							Need a dose of positivity now? These photos of homemade pandemic signs show thanks to those on the front line and boost morale for those locked down at home.<br>
+						</p>
+					</div>
+					<div class="col-lg-4 col-sm-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-04-30%20at%206.56.35%20PM.png" class="img-fluid mg-sm img-8-style float-lg-none" alt="placeholder image" />
+						<h3 class="h3-4-style mg-sm">
+							Bread Baking Is on the Rise: Drool-Worthy Photos Beyond Sourdough
+						</h3>
+						<p class="p-style">
+							How's your sourdough starter looking? Take a look at these drool-worthy photos for baking ideas we found via Bread Instagram—some don't even require yeast (which is hard to find these days).
+						</p>
+					</div>
+				</div>
+				<p class="p-4-style mg-clear">
+					MORE STORIES
+				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-lg-3 col-4 col-sm-3 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-01%20at%2012.47.39%20AM.png" class="img-fluid img-bloc-0-style float-lg-none float-none" alt="Screen%20Shot%202020 05-01%20at%2012.47.39%20AM" />
+					</div>
+					<div class="col">
+						<h6 class="p-9-style mg-clear">
+							U.S. Economy Contracts at Fastest Pace Since Great Recession, Worse to Come<br>
+						</h6>
+						<p class="mg-sm p-style">
+							The U.S. economy is contracting sharply because of the coronavirus pandemic and millions of Americans are out of work.
+						</p>
+					</div>
+				</div>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-lg-3 col-4 align-self-start col-sm-3 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-01%20at%2012.52.58%20AM.png" class="img-fluid img-bloc-0-style float-lg-none" alt="Screen%20Shot%202020 05-01%20at%2012.52.58%20AM" />
+					</div>
+					<div class="col">
+						<h6 class="p-9-style mg-clear">
+							Pro-Trump Group Plans to Hold MAGA May Day Rallies Amid Pandemic Shutdowns
+						</h6>
+						<p class="mg-sm p-style float-none btn-resize-mode">
+							Organizers plan to hold "drive for freedom" rallies in several major cities on Friday, the latest protests against pandemic shutdown measures.
+						</p>
+					</div>
+				</div>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-lg-3 col-4 col-sm-3 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-01%20at%2012.52.58%20AM.png" class="img-fluid img-bloc-0-style float-lg-none" alt="Screen%20Shot%202020 05-01%20at%2012.52.58%20AM" />
+					</div>
+					<div class="col">
+						<h6 class="p-9-style mg-clear">
+							EU Chief Wants China to Join Investigation Into Coronavirus Origins
+						</h6>
+						<p class="mg-sm p-style">
+							EU Commission President Ursula von der Leyen said that full transparency and international cooperation are needed to prevent a repeat of the pandemic.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-12">
+				<p class="p-4-style mg-md-sm mg-clear">
+					OPINION
+				</p>
+				<div class="row no-gutters">
+					<div class="offset-lg-0 col-3 col-lg-3 col-sm-2">
+						<img src="img/hannah-friedman.png" class="img-fluid rounded-circle img-style float-md-none" alt="placeholder user" />
+					</div>
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							As States Clam Up to Endure Pandemic, Roma Are Left Out in the Cold<br>
+						</p>
+						<p class="p-11-style mg-sm">
+							BY HANNAH FRIEDMAN<br>
+						</p>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="d-flex col-lg-12">
+						<div class="divider-h divider-bloc-0-padding">
+							<span class="divider"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="offset-lg-0 col-sm-2 col-3 col-lg-3">
+						<img src="img/hannah-friedman.png" class="img-fluid rounded-circle img-style float-sm-none float-lg-none" alt="placeholder user" />
+					</div>
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							Trump's 'Liberate' Protesters Want to Feel Safe. Americans Want to Be Safe<br>
+						</p>
+						<p class="p-11-style mg-sm">
+							BY HANNAH FRIEDMAN<br>
+						</p>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="d-flex col-lg-12">
+						<div class="divider-h divider-0-padding">
+							<span class="divider"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="offset-lg-0 col-sm-2 col-3 col-lg-3">
+						<img src="img/laicie-heeley.png" class="img-fluid rounded-circle img-style float-sm-none float-lg-none" alt="placeholder user" />
+					</div>
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							Governors Can Reopen All They Like. Without Child Care, Parents Can't Work<br>
+						</p>
+						<p class="p-11-style mg-sm">
+							BY LAICIE HEELEY
+						</p>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="d-flex col-lg-12">
+						<div class="divider-h divider-0-bloc-0-padding">
+							<span class="divider"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="offset-lg-0 col-sm-2 col-3 col-lg-3">
+						<img src="img/laicie-heeley.png" class="img-fluid rounded-circle img-style float-sm-none float-lg-none" alt="placeholder user" />
+					</div>
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							As States Clam Up to Endure Pandemic, Roma Are Left Out in the Cold<br>
+						</p>
+						<p class="p-11-style mg-lg">
+							BY LAICIE HEELEY
+						</p>
+					</div>
+				</div>
+				<h6 class="h6-style mg-clear">
+					THE DEBATE
+				</h6>
+				<div class="row no-gutters debate-column-red">
+					<div class="offset-lg-0 col-sm-2 col-3 col-lg-3">
+						<img src="img/Screen%20Shot%202020-04-30%20at%207.11.27%20PM.png" class="img-fluid img-17-style float-lg-none" alt="Screen%20Shot%202020 04-30%20at%207.11.27%20PM" />
+					</div>
+					<div class="col offset-lg-0 align-self-center" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							Trump's Right. The WHO Is Not Fit for Purpose<br>
+						</p>
+					</div>
+				</div>
+				<div>
+					<img class="img-fluid float-lg-right img-nigel-fara-style float-sm-right float-right" src="img/nigel-farage.png" alt="nigel farage" />
+				</div>
+				<div class="row no-gutters">
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="mg-clear btn-resize-mode text-lg-left debate-byline p-bloc-0-color">
+							<span><span class="text-span-color"></span><span><span>BY</span></span></span>&nbsp;NIGEL FARAGE<br>
+						</p>
+						<div class="text-center container-div-bloc-0-style">
+							<a href="index.html" class="btn btn-d btn-rd vs-btn btn-sm">VS</a>
+						</div>
+					</div>
+				</div>
+				<div class="row no-gutters debate-column-blue">
+					<div class="offset-lg-0 col-sm-2 col-3 col-lg-3">
+						<img src="img/Screen%20Shot%202020-04-30%20at%207.11.27%20PM.png" class="img-fluid img-17-style float-lg-none" alt="Screen%20Shot%202020 04-30%20at%207.11.27%20PM" />
+					</div>
+					<div class="col offset-lg-0 align-self-center" margin-right="5px">
+						<p class="p-9-style mg-clear btn-resize-mode text-lg-left">
+							Trump's Right. The WHO Is Not Fit for Purpose<br>
+						</p>
+					</div>
+				</div>
+				<div>
+					<img class="img-fluid float-lg-right img-nigel-fara-style float-sm-right float-right" src="img/nigel-farage.png" alt="nigel farage" />
+				</div>
+				<div class="row no-gutters">
+					<div class="col offset-lg-0" margin-right="5px">
+						<p class="mg-clear btn-resize-mode text-lg-left debate-byline p-bloc-0-color">
+							<span><span class="text-span-color"></span><span><span>BY</span></span></span>&nbsp;NIGEL FARAGE<br>
+						</p>
+					</div>
+				</div>
+				<div>
+					<div class="divider-h">
+						<span class="divider"></span>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="col-12">
+						<div class="row no-gutters">
+							<div class="col-12">
+								<p class="p-4-style">
+									LATEST NEWS
+								</p>
+							</div>
+							<div class="col-12">
+								<div class="row no-gutters">
+									<div class="col-lg-4 col-sm-2 col-4">
+										<img src="img/Screen%20Shot%202020-05-01%20at%208.24.04%20PM.png" class="img-fluid img-latest-news-side float-lg-none" alt="Screen%20Shot%202020 05-01%20at%208.24.04%20PM" />
+									</div>
+									<div class="col">
+										<p class="p-9-style mg-clear">
+											Musk Says 'Give People Back Their Freedom,' Claims He's Selling Possessions
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row no-gutters">
+									<div class="col-lg-4 col-sm-2 col-4">
+										<img src="img/Screen%20Shot%202020-05-01%20at%209.03.07%20PM.png" class="img-fluid img-latest-news-side float-lg-none" alt="Screen%20Shot%202020 05-01%20at%209.03.07%20PM" />
+									</div>
+									<div class="col">
+										<p class="p-9-style mg-clear">
+											Beyond Baking Bread, What's Everyone Cooking in Lockdown?
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row no-gutters">
+									<div class="col-lg-4 col-sm-2 col-4">
+										<img src="img/Screen%20Shot%202020-05-01%20at%209.10.43%20PM.png" class="img-fluid img-latest-news-side float-lg-none" alt="Screen%20Shot%202020 05-01%20at%209.10.43%20PM" />
+									</div>
+									<div class="col">
+										<p class="p-9-style">
+											Georgia's Coronavirus Cases, One Week After Reopening Businesses
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row no-gutters">
+									<div class="col-lg-4 col-sm-2 col-4">
+										<img src="img/Screen%20Shot%202020-05-01%20at%209.15.53%20PM.png" class="img-fluid img-latest-news-side float-md-none" alt="Screen%20Shot%202020 05-01%20at%209.15.53%20PM" />
+									</div>
+									<div class="col">
+										<p class="p-9-style">
+											SpaceX Starlink Satellites Spotted Over Florida
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="row no-gutters">
+									<div class="col-lg-4 col-sm-2 col-4">
+										<img src="img/Screen%20Shot%202020-05-01%20at%209.17.30%20PM.png" class="img-fluid img-latest-news-side float-md-none" alt="Screen%20Shot%202020 05-01%20at%209.17.30%20PM" />
+									</div>
+									<div class="col">
+										<p class="p-9-style">
+											Fans Predict What The Countdown Clock On 'Twilight' Author's Website Means
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-7 col-md-9 col-lg-12">
+								<div class="container-div-signup text-sm-left">
+									<div class="row no-gutters row-bloc-0-style">
+										<div class="col-md-10">
+											<div class="row no-gutters row-style">
+												<div class="col-lg-3 col-3 col-md-3">
+													<img class="img-fluid float-lg-none img-30-style" src="img/Screen%20Shot%202020-05-01%20at%2010.15.20%20PM.png" alt="Screen%20Shot%202020 05-01%20at%2010.15.20%20PM" />
+												</div>
+												<div class="col-9 col-md-9 col-lg-9">
+													<p class="p-54-style text-md-left">
+														SIGN UP FOR OUR NEWSLETTER
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-11">
+											<a href="index.html" class="btn btn-d btn-lg btn-sq float-lg-none newsletter-sign-up-btn btn-padding">SIGN UP ></a>
+										</div>
+										<div class="col">
+											<p class="p-55-style">
+												Update your preferences »
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bloc l-bloc none" id="magazine-section">
+	<div class="container ">
+		<div class="row">
+			<div class="col">
+				<h5 class="text-lg-center features-sub-title mg-clear">
+					<img src="./favicon.png"/ alt="favicon">  IN THE MAGAZINE<br>
+				</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="row">
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.14.09%20PM.png" class="img-fluid mx-auto d-block" alt="Screen%20Shot%202020 05-02%20at%209.14.09%20PM" /><a href="index.html" class="btn btn-d btn-lg see-all-features-btn btn-sq">SEE ALL FEATURES ></a>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.06.24%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">FEATURES</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">EDUCATION</a>
+						<p class="features-sub-title mg-md mg-clear-md mg-sm-xs">
+							The Class of 2020 Is All Dressed Up With Nowhere to Go
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.11.08%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.11.08%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">FEATURES</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">EDUCATION</a>
+						<p class="features-sub-title mg-md mg-clear-md mg-sm-xs">
+							Advice to the Class of 2020 from People Who Graduated in the Last Recession
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.11.34%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.11.34%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">FEATURES</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">BUSINESS</a>
+						<p class="features-sub-title mg-md mg-clear-md mg-sm-xs">
+							Buffett/Gates: Their "Giving Pledge" is 10 years old. Is it a Success?
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="row voffset-md">
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.27.23%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">PERISCOPE</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">CULTURE</a>
+						<p class="features-sub-title mg-md mg-clear-md mg-sm-xs">
+							Trump Says We're Opening Up; Scientists Say We'll Be Back in Lockdown Again
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.27.40%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">DOWNTIME</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">CULTURE</a>
+						<p class="features-sub-title mg-md">
+							Soothing CBD Gifts for an Anxious Time
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.33.48%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.11.08%20PM" /><a href="index.html" class="btn btn-d features-btn btn-sq btn-features-padding btn-sm">DOWNTIME</a><a href="index.html" class="btn btn-d features-btn-sub btn-sq btn-education-padding btn-sm">CULTURE</a>
+						<p class="features-sub-title mg-md mg-clear-md mg-md-xs">
+							Hasan Minhaj on a Post-Covid-19 'Patriot Act' on Netflix
+						</p>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.30.51%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.11.34%20PM" />
+						<p class="features-sub-title mg-md">
+							POTTER&rsquo;S FIELD
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- magazine-section END -->
+
+<!-- editor-pick-section -->
+<div class="bloc l-bloc none" id="editor-pick-section">
+	<div class="container ">
+		<div class="row voffset-md">
+			<div class="col">
+				<h5 class="text-lg-center features-sub-title mg-clear"><img src="./favicon.png"/ alt="favicon">
+					EDITOR&rsquo;S PICK<br>
+				</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="divider-h divider-bloc-2-padding">
+					<span class="divider"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="row">
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.43.58%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							'I'm a Food Bank Worker. Without Us, I Don't Know Where People Would Turn'
+						</p>
+						<p class="p-style">
+							Since COVID-19 hit, we've seen an increase of about 20 percent more people coming to get food. We have to raise hundreds of thousands of dollars to buy extra products.
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.44.08%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Llama Antibodies May Be Useful for Treating COVID-19, Study Finds
+						</p>
+						<p class="p-style">
+							The inspiration for the study came from tests conducted on a 4-year-old llama named "Winter" that is currently living on a farm in the Belgian countryside.
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.44.25%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							'Move On': Musk Cuts Into NASA Conference Call During COVID-19 Question
+						</p>
+						<p class="p-style">
+							The SpaceX boss recent fumed against U.S. shelter-in-place orders during a Tesla earnings call, saying: "This is not democratic. This is not freedom. Give people back their goddamn freedom."
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%209.44.38%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							American Bus Industry Could Lose Billions of Dollars, Thousands of Jobs
+						</p>
+						<p class="p-style">
+							Research published by the American Bus Association predicted the motorcoach industry could lose $4.7 billion and more than 27,000 jobs.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col">
+				<div class="row">
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.48.24%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Peruvian River Sees 90 Percent Reduction in Waste Since Lockdown Began
+						</p>
+						<p class="p-style">
+							"The state of emergency has allowed us to observe the impact of human actions on water resources," said Flor de María Huamani Alfaro from Peru's National Water Authority.
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.48.36%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							South Korea Reports No New Domestic Coronavirus Cases
+						</p>
+						<p class="p-style">
+							Over 84 percent of South Korea's infected population have recovered and the number of active cases (patients in hospital or recovering at home) has been declining from around mid-March.<br>
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.48.44%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Greta Thunberg Donates $100,000 to Combat Coronavirus
+						</p>
+						<p class="p-style">
+							The climate activist has launced a campaign with Danish nonprofit Human Act to help children and young people affected by the primary and secondary impacts of the pandemic.<br>
+						</p>
+					</div>
+					<div class="col-12 col-lg-3 col-md-3">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.48.57%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Attorneys Seek to Delay Execution of Tennessee Death Row Inmate
+						</p>
+						<p class="p-style">
+							Byron Lewis Black, 64, is scheduled to be put to death on October 4 for the murder of his girlfriend and her two daughters in 1988.<br>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- editor-pick-section END -->
+
+<!-- updates-section -->
+<div class="bloc l-bloc none" id="updates-section">
+	<div class="container ">
+		<div class="row">
+			<div class="col">
+				<div class="divider-h divider-bloc-2-padding">
+					<span class="divider"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col">
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					U.S.<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-lg-4 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.52.22%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Washington Gov. Jay Inslee Warns COVID-19 Cases Could 'Jump Right Back Up'
+						</p>
+					</div>
+					<div class="col-12 col-lg-4 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-02%20at%2011.52.33%20PM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Mega Millions Results, Numbers for 5/01/20: Did Anyone Win $200 Million?
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.04%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.04%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									B-52 Bomber Loses Part During New Orleans Health Worker Flyover
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-32379-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.04%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.04%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									B-52 Bomber Loses Part During New Orleans Health Worker Flyover
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h divider-23869-padding">
+					<span class="divider"></span>
+				</div>
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					WORLD<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.01%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Wuhan Ranks as Top Domestic Travel Spot After Coronavirus Ends: Study
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.01.51%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Over 1 Million Coronavirus Patients Have Recovered Around the World
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.10%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.10%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Russian State Television Pushes Bill Gates COVID-19 Conspiracy Theoryy
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-43014-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.17%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.17%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									China's Coronavirus Diplomacy Could Worsen Europe's Fractures: Report
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					Business<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.01%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Wuhan Ranks as Top Domestic Travel Spot After Coronavirus Ends: Study
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.01.51%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Over 1 Million Coronavirus Patients Have Recovered Around the World
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.10%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.10%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Russian State Television Pushes Bill Gates COVID-19 Conspiracy Theoryy
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-32379-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-43014-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.17%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.17%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									China's Coronavirus Diplomacy Could Worsen Europe's Fractures: Report
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					Tech &amp; Science<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.01%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Wuhan Ranks as Top Domestic Travel Spot After Coronavirus Ends: Study
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.01.51%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Over 1 Million Coronavirus Patients Have Recovered Around the World
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.10%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.10%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Russian State Television Pushes Bill Gates COVID-19 Conspiracy Theoryy
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-32379-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-43014-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.17%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.17%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									China's Coronavirus Diplomacy Could Worsen Europe's Fractures: Report
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h divider-23869-padding">
+					<span class="divider"></span>
+				</div>
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					Culture<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.01%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Wuhan Ranks as Top Domestic Travel Spot After Coronavirus Ends: Study
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.01.51%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm">
+							Over 1 Million Coronavirus Patients Have Recovered Around the World
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.10%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.10%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Russian State Television Pushes Bill Gates COVID-19 Conspiracy Theoryy
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-32379-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-43014-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.17%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.17%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									China's Coronavirus Diplomacy Could Worsen Europe's Fractures: Report
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h divider-23869-padding">
+					<span class="divider"></span>
+				</div>
+				<h5 class="text-lg-left mg-sm features-subtitle-red">
+					Sports<br>
+				</h5>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.01%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Wuhan Ranks as Top Domestic Travel Spot After Coronavirus Ends: Study
+						</p>
+					</div>
+					<div class="col-12 col-md-4">
+						<img src="img/Screen%20Shot%202020-05-03%20at%2012.01.51%20AM.png" class="img-fluid mx-auto d-block mg-sm" alt="Screen%20Shot%202020 05-02%20at%209.06.24%20PM" />
+						<p class="features-sub-title mg-sm mg-md-xs">
+							Over 1 Million Coronavirus Patients Have Recovered Around the World
+						</p>
+					</div>
+					<div class="col">
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.10%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.10%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Russian State Television Pushes Bill Gates COVID-19 Conspiracy Theoryy
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-32379-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-02%20at%2011.55.13%20PM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-02%20at%2011.55.13%20PM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									Congressional Candidate Files Recall Petition for Arizona Governor
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="divider-h divider-43014-padding">
+									<span class="divider"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-lg-4 col-md-5 col-4 col-sm-2 col-xl-3">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.02.17%20AM.png" class="img-fluid img-49-style float-lg-none" alt="Screen%20Shot%202020 05-03%20at%2012.02.17%20AM" />
+							</div>
+							<div class="col">
+								<p class="features-sub-title">
+									China's Coronavirus Diplomacy Could Worsen Europe's Fractures: Report
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters voffset-md">
+			<div class="col">
+				<div class="divider-h divider-23869-padding">
+					<span class="divider"></span>
+				</div>
+				<div class="row">
+					<div class="col-lg-8">
+						<p class="features-subtitle-red mg-clear">
+							SUBSCRIBE
+						</p>
+						<div class="row subscribe-banner-container no-gutters">
+							<div class="col-lg-5 col-md-5 col-sm-6">
+								<img src="img/Screen%20Shot%202020-05-03%20at%2012.12.21%20AM.png" class="img-fluid img-bloc-4-style mx-auto d-block" alt="Screen%20Shot%202020 05-03%20at%2012.12.21%20AM" width="275" />
+							</div>
+							<div class="col">
+							  <h6 class="mg-md subscribe-banner"><br>
+						      </h6>
+							  <h6 class="mg-md subscribe-banner"> In-depth Stories You Don't See Elsewhere About Topics You Want to Read! </h6>
+							  <p>
+									All Access + Weekly Delivery.<br>Choose A Membership That's Perfect for You!<br>
+								</p><a href="index.html" class="btn btn-d btn-lg subscribe-btn-big btn-sq">SUBSCRIBE ></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<p class="features-subtitle-red mg-clear">
+							NEWSLETTER
+						</p>
+						<div class="row newsletter-sign-up">
+							<div class="col-lg-6 col-md-3 starting-5 col-sm-4">
+								<div class="newsletter-div container-div-bloc-4-style ">
+								</div>
+							</div>
+							<div class=" col-md-9 col-lg-6 col-sm-8">
+								<h6 class="mg-md subscribe-banner mg-lg-md">
+									The Starting 5<br>
+								</h6>
+								<p class="p-bloc-4-style">
+									See why nearly a quarter of a million subscribers begin their day with the Starting 5.<br>
+								</p><a href="index.html" class="btn btn-d btn-lg subscribe-btn-big btn-sq">SIGN UP ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- updates-section END -->
+
+<!-- footer-section -->
+<div class="bloc l-bloc none" id="footer-section">
+	<div class="container ">
+		<div class="row">
+			<div class="col">
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<div class="col">
+						<div class="row no-gutters">
+							<div>
+								<img src="img/logo-newsweek-red.png" class="img-fluid img-footer-section-style float-lg-none" alt="newsweek-footer-logo" />
+							</div>
+							<div class="col align-self-end">
+								<p class="p-footer-section-style mg-clear">
+									© 2020 NEWSWEEK<br>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<span class="fa fa-linkedin footer-icon-style float-lg-right float-md-right float-sm-right icon-sm"></span><span class="ion ion-social-tumblr footer-icon-style float-lg-right float-md-right float-sm-right icon-sm"></span><span class="ion ion-social-instagram-outline footer-icon-style float-lg-right float-md-right float-sm-right icon-sm"></span><span class="fa fa-twitter footer-icon-style float-lg-right float-md-right float-sm-right icon-sm"></span><span class="fa fa-facebook-square footer-icon-style float-lg-right float-md-right float-sm-right icon-sm"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="divider-h divider-footer-section-padding d-lg-block   d-none">
+							<span class="divider"></span>
+						</div>
+					</div>
+				</div>
+				<div class="row d-lg-flex d-md-none d-flex">
+					<div class="col-lg-12">
+						<ul class="list-unstyled list-horizontal-layout list-sp-lg">
+							<li class="bloc-footer-section-style">
+								<p class="p-list-style">
+									<strong>Editions:</strong>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">U.S. Edition</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">日本 &nbsp;&nbsp;</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Pakistan &nbsp;</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Polska &nbsp;</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">România</a>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row no-gutters voffset-clear-xs">
+					<div class="col-lg-12">
+						<ul class="list-unstyled list-horizontal-layout list-sp-lg">
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">About Us</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Corrections</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Contact Us</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Editorial Guidelines</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Advertise</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Copyright</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Terms &amp; Conditions</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Privacy Policy</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Cookie Policy</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Terms of Sale</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Archive</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Announcements</a>
+								</p>
+							</li>
+							<li class="bloc-footer-section-style list-style-footer">
+								<p class="p-list-style">
+									<a href="#">Consent Preferences</a>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>
+
+    
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
