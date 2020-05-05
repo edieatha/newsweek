@@ -9,7 +9,6 @@ body {
 
 .page-container {
   overflow-x: hidden;
-  padding: 0 2%;
 }
 
 a {
@@ -428,8 +427,7 @@ p,
 }
 
 .container-div-0-style {
-  margin-bottom: -12px;
-  padding: 0;
+  margin-bottom: -5px;
 }
 
 .row-style,
