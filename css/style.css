@@ -621,9 +621,9 @@ p,
     padding-right: 20px;
   }
 
-  .page-container{
+  .page-container {
     overflow-x: hidden;
-    position:relative;
+    position: relative;
   }
 
   .bloc .full-width-bloc,
@@ -803,7 +803,7 @@ p,
     height: 154px;
   }
 
-    .d-sml-none {
+  .d-sml-none {
     display: none;
   }
 
