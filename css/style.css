@@ -9,6 +9,7 @@ body {
 
 .page-container {
   overflow-x: hidden;
+  padding: 0 2%;
 }
 
 a {
@@ -36,7 +37,7 @@ a:hover {
   background-color: white;
 }
 
-.bloc-sm {
+
   padding: 20px 15px;
 }
 
@@ -620,6 +621,11 @@ p,
     padding-right: 20px;
   }
 
+  .page-container{
+    overflow-x: hidden;
+    position:relative;
+  }
+
   .bloc .full-width-bloc,
   .bloc-tile-2 .full-width-bloc .container,
   .bloc-tile-3 .full-width-bloc .container,
@@ -797,6 +803,27 @@ p,
     height: 154px;
   }
 
+    .d-sml-none {
+    display: none;
+  }
+
+  .d-sml-hide {
+    visibility: hidden;
+  }
+
+  .top-story {
+    position: absolute;
+    padding-bottom: 5rem;
+    padding-right: 3.2rem;
+  }
+
+  .featured-stories {
+    position: relative;
+    top: 26rem;
+    padding-bottom: 26rem;
+    margin-top: 15%;
+  }
+
   .img-8-style {
     width: 521px;
   }
@@ -851,7 +878,7 @@ p,
   }
 
   .col .sign-in-btn {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .col .menu-bars {
@@ -869,6 +896,28 @@ p,
 
   .p-color {
     font-size: 10px;
+  }
+
+  .d-sml-none {
+    display: none;
+  }
+
+  .d-sml-hide {
+    visibility: hidden;
+  }
+
+  .top-story {
+    margin-bottom: 2%;
+    position: absolute;
+    padding-bottom: 5rem;
+    padding-right: 3.2rem;
+  }
+
+  .featured-stories {
+    position: relative;
+    top: 26rem;
+    padding-bottom: 26rem;
+    margin-top: 2%;
   }
 
   .heroes-img-xs {
