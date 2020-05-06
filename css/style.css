@@ -1,14 +1,13 @@
+html {
+  overflow-x: hidden !important;
+}
+
 body {
   background-color: #f4f5f6;
   -webkit-font-smoothing: antialiased;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
   padding: 0;
-}
-
-.page-container {
-  overflow-x: hidden;
 }
 
 a {
@@ -620,7 +619,6 @@ p,
   }
 
   .page-container {
-    overflow-x: hidden;
     position: relative;
   }
 
@@ -648,7 +646,6 @@ p,
   }
 
   .page-container {
-    overflow-x: hidden;
     position: relative;
   }
 
@@ -661,7 +658,6 @@ p,
 
 @media (max-width: 767px) {
   .page-container {
-    overflow-x: hidden;
     position: relative;
   }
 
